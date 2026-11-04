@@ -1,0 +1,46 @@
+== 1.1 Diviseurs ==
+[1, 2, 4, 7, 14, 28] [1, 97]
+parfaits < 10000 : [6, 28, 496, 8128]
+
+== 2.1 PGCD ==
+21 21
+
+== 3.1 Tableau des temps ==
+         n     naïf (s)   racine (s)
+     10007     0.000230     0.000003
+    100003     0.002304     0.000007
+   1000003     0.023072     0.000023
+
+== Encadré IA : cas limites d'un test de primalité ==
+n=1 : False | n=2 : True | n=-7 : False
+
+== 4.1 Crible ==
+9592 0.0053s | un par un : 9592 0.0637s
+
+== 5.1 Facteurs ==
+[2, 2, 2, 3, 3, 5] [2, 7]
+[999979, 999983] 0.064s
+
+== 6.1 Fibonacci récursif ==
+20 6765 0.0009s
+25 75025 0.0110s
+30 832040 0.1197s
+
+== 6.2 Compteur d'appels ==
+F(1) calculé 832040 fois ; appels totaux 2692537
+
+== 6.3 Fibonacci itératif ==
+2090 chiffres 0.00124s
+
+== Syracuse ==
+111 6171 261
+
+== 7.1 Euclide étendu ==
+(21, -3, 7) (1, -5, 1)
+
+== 7.2 Puissance modulaire ==
+514944 naïf 0.315s, rapide 12.0 µs
+
+== Fermat : menteurs en base 2 sous 10000 ==
+1
+22 [341, 561, 645, 1105, 1387, 1729, 1905, 2047, 2465, 2701, 2821, 3277, 4033, 4369, 4371, 4681, 5461, 6601, 7957, 8321, 8481, 8911]

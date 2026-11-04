@@ -1,0 +1,26 @@
+Chiffré (5, 8) : IZZIKECILIENC
+César (1, 3)   : DWWDTXHDODXEH
+
+a valides : [1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25] 12 | clefs : 312
+Erreur attendue : 4 n'est pas inversible modulo 26 (pgcd = 2)
+Clef (4, 7) refusée : 4 n'est pas inversible modulo 26 (pgcd = 2)
+4*0+7 -> H | 4*13+7 -> H
+
+Force brute : 312 candidats
+clef lisible : [(7, 12)] | LECHIFFREMENTAFFINEREMPLACECHAQUELETTREP ...
+
+Lettre la plus fréquente : O -> 12 clefs à tester au lieu de 312
+clef retrouvée : [(7, 12)]
+meilleur score fréquentiel : (7, 12)
+
+== Indice de coincidence ==
+clair 0.0926 | affine 0.0926 | aléatoire 0.0383
+IC Vigenère (clef CLE) : 0.0551
+L : IC moyen des colonnes
+1 0.0551
+2 0.0538
+3 0.0905
+4 0.0532
+5 0.0559
+6 0.0889
+7 0.0548

@@ -1,0 +1,37 @@
+== 1.1 Transposée ==
+
+== 2.1 Produit ==
+[[2, 1], [4, 3]]
+refusé : dimensions incompatibles
+
+== 2.2 Coût du produit ==
+40 0.004s 
+80 0.031s x7.0
+120 0.108s x3.5
+
+== 3.1 numpy ==
+python 0.1034s, numpy 0.010625s, rapport 10
+
+== 4.1 Gauss ==
+[2.9999999999999964, -0.9999999999999983, 0.5000000000000004]
+
+== 4.2 Comparaison à numpy.linalg.solve (n = 50, graine 7) ==
+1.6653345369377348e-14
+
+== 5.1 Hilbert : solve vs inv ==
+n=10 cond=1.60e+13 erreur solve=2.43e-05 erreur inv@b=4.91e-03
+n=12 cond=1.62e+16 erreur solve=2.76e-01 erreur inv@b=5.73e+00
+
+== 6.1 Rotations ==
+symétrie∘rotation == rotation∘symétrie ? False
+
+== 7.1 Déterminant ==
+-2.000000000000001 -2.0000000000000013
+
+== 8.1 Hilbert exact ==
+[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)] ...
+erreur de resoudre en flottants sur Hilbert 12 : 0.005954221523141623
+inverse, 1re ligne : [-17.0, 3.0, 5.0]
+
+== 9.1 Coordonnées homogènes ==
+[-1.  4.] [3. 2.]

@@ -1,0 +1,7 @@
+Monte-Carlo aire maison : 3.9944249999999997 (exact 4.0)
+aire étoile : 4.702282018339785
+sommets de l'enveloppe de 200 points gaussiens : 10
+
+== Réflexion IA : un point-dans-polygone naïf ==
+(1, 1.5) naïf : False | correct : True
+(0, 1.5) naïf : False | correct : True
