@@ -1,5 +1,4 @@
-# module-num-rique-projet
-# Outils fondamentaux
+# Outils fondamentaux : module-num-rique-projet
 
 **Nom :** Yanis El Moussafer
 
@@ -33,13 +32,9 @@ L'intersection d'une courbe de Bézier et d'une droite regroupe ces thèmes : on
 polynôme en t, dont on isole les racines dans [0, 1] avant de les affiner.
 
 Lancer les tests et les expériences :
-
-```bash
 cd projet
 python -m unittest discover -s tests
 python experiences.py
-```
-
 Les chiffres cités ici viennent de `projet/resultats.md`.
 
 ### Limites
