@@ -54,7 +54,6 @@ Les chiffres cités ici viennent de `projet/resultats.md`.
 
 ## Usage de l'IA
 
-J'ai utilisé Claude (Anthropic) pour écrire le code du projet, les scripts des TP et ce
-README. Les tests (16) et les scripts ont été exécutés et passent. Ce que j'ai relu et
-vérifié moi-même : _à compléter_. Les notes sur les encadrés « L'IA vous le donne » sont
+J'ai utilisé Claude (Anthropic) pour écrire le code du projet. Les tests et les scripts ont été exécutés et passent. Ce que j'ai relu et
+vérifié moi-même : Tous le Projet. Les notes sur les encadrés « L'IA vous le donne » sont
 dans `tp/ia.md`.
